@@ -1,5 +1,5 @@
 {
-  "name": "@dc0de/react-native-fast-image-expo",
+  "name": "react-native-fast-image-expo",
   "version": "0.0.1",
   "description": "🚩 FastImage, performant React Native image component.",
   "keywords": [
