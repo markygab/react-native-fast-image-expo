@@ -7,26 +7,26 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/react-native-fast-image">
+  <a href="https://www.npmjs.com/package/react-native-fast-image-expo">
     <img src="https://img.shields.io/npm/v/react-native-fast-image.svg?style=flat-square" alt="npm package">
   </a>
-  <a href="https://www.npmjs.com/package/react-native-fast-image">
+  <a href="https://www.npmjs.com/package/react-native-fast-image-expo">
     <img src="https://img.shields.io/npm/dm/react-native-fast-image.svg?style=flat-square" alt="npm downloads">
   </a>
-  <a href="https://circleci.com/gh/DylanVann/react-native-fast-image/tree/master">
-    <img src="https://img.shields.io/circleci/project/github/DylanVann/react-native-fast-image/master.svg?style=flat-square" alt="CircleCI build status">
+  <a href="https://circleci.com/gh/dcodeteam/react-native-fast-image-expo/tree/expo">
+    <img src="https://img.shields.io/circleci/project/github/dcodeteam/react-native-fast-image-expo/expo.svg?style=flat-square" alt="CircleCI build status">
   </a>
-  <a href="https://github.com/DylanVann/react-native-fast-image/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/DylanVann/react-native-fast-image.svg?style=flat-square" alt="license">
+  <a href="https://github.com/dcodeteam/react-native-fast-image-expo/blob/expo/LICENSE">
+    <img src="https://img.shields.io/github/license/dcodeteam/react-native-fast-image-expo.svg?style=flat-square" alt="license">
   </a>
 </p>
 
 <p align="center" >
   <kbd>
-    <img src="https://github.com/DylanVann/react-native-fast-image/raw/master/docs/assets/scroll.gif" title="Scroll Demo" float="left">
+    <img src="https://github.com/dcodeteam/react-native-fast-image-expo/raw/expo/docs/assets/scroll.gif" title="Scroll Demo" float="left">
   </kbd>
   <kbd>
-    <img src="https://github.com/DylanVann/react-native-fast-image/raw/master/docs/assets/priority.gif" title="Priority Demo" float="left">
+    <img src="https://github.com/dcodeteam/react-native-fast-image-expo/raw/expo/docs/assets/priority.gif" title="Priority Demo" float="left">
   </kbd>
   <br>
   <em>FastImage example app.</em>
@@ -63,14 +63,14 @@ and
 
 ```bash
 # Install
-yarn add react-native-fast-image
+yarn add react-native-fast-image-expo
 
 # Automatic linking. (other linking methods listed below)
-react-native link
+yarn react-native link react-native-fast-image-expo
 ```
 
 ```jsx
-import FastImage from 'react-native-fast-image'
+import FastImage from 'react-native-fast-image-expo'
 
 const YourImage = () =>
   <FastImage
