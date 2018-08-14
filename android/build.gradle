@@ -63,4 +63,8 @@ dependencies {
         exclude group: "com.android.support"
     }
     annotationProcessor "com.github.bumptech.glide:compiler:${_glideVersion}"
+    compile("com.github.bumptech.glide:okhttp3-integration:${_glideVersion}") {
+        exclude group: "com.android.support"
+        exclude group: 'glide-parent'
+    }
 }
